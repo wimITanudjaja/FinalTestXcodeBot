@@ -16,9 +16,7 @@
 		C5913B5F23DB6DE6009D4091 /* FinalTestXcodeBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5913B5E23DB6DE6009D4091 /* FinalTestXcodeBotTests.swift */; };
 		C5913B6A23DB6DE6009D4091 /* FinalTestXcodeBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5913B6923DB6DE6009D4091 /* FinalTestXcodeBotUITests.swift */; };
 		C5913B7923DB6EB6009D4091 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = C5913B7823DB6EB6009D4091 /* KeychainAccess */; };
-		C5913B7B23DB6EF7009D4091 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5913B7A23DB6EF7009D4091 /* DataManager.swift */; };
-		C5913B7C23DB7401009D4091 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5913B7A23DB6EF7009D4091 /* DataManager.swift */; };
-		C5913B7D23DB7403009D4091 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5913B7A23DB6EF7009D4091 /* DataManager.swift */; };
+		C5913B7F23DB74D9009D4091 /* KeyChainAccessClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5913B7E23DB74D9009D4091 /* KeyChainAccessClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +51,7 @@
 		C5913B6523DB6DE6009D4091 /* FinalTestXcodeBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalTestXcodeBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5913B6923DB6DE6009D4091 /* FinalTestXcodeBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalTestXcodeBotUITests.swift; sourceTree = "<group>"; };
 		C5913B6B23DB6DE6009D4091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5913B7A23DB6EF7009D4091 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C5913B7E23DB74D9009D4091 /* KeyChainAccessClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainAccessClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +110,7 @@
 				C5913B5023DB6DE6009D4091 /* Assets.xcassets */,
 				C5913B5223DB6DE6009D4091 /* LaunchScreen.storyboard */,
 				C5913B5523DB6DE6009D4091 /* Info.plist */,
-				C5913B7A23DB6EF7009D4091 /* DataManager.swift */,
+				C5913B7E23DB74D9009D4091 /* KeyChainAccessClass.swift */,
 			);
 			path = FinalTestXcodeBot;
 			sourceTree = "<group>";
@@ -272,8 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5913B7F23DB74D9009D4091 /* KeyChainAccessClass.swift in Sources */,
 				C5913B4C23DB6DDE009D4091 /* ViewController.swift in Sources */,
-				C5913B7B23DB6EF7009D4091 /* DataManager.swift in Sources */,
 				C5913B4823DB6DDE009D4091 /* AppDelegate.swift in Sources */,
 				C5913B4A23DB6DDE009D4091 /* SceneDelegate.swift in Sources */,
 			);
@@ -284,7 +282,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5913B5F23DB6DE6009D4091 /* FinalTestXcodeBotTests.swift in Sources */,
-				C5913B7C23DB7401009D4091 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +290,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5913B6A23DB6DE6009D4091 /* FinalTestXcodeBotUITests.swift in Sources */,
-				C5913B7D23DB7403009D4091 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

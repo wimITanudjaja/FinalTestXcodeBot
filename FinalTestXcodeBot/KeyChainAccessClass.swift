@@ -1,5 +1,5 @@
 //
-//  DataManager.swift
+//  KeyChainAccessClass.swift
 //  FinalTestXcodeBot
 //
 //  Created by Sean Rada on 1/24/20.
@@ -9,8 +9,8 @@
 import UIKit
 import KeychainAccess
 
-class DataManager: NSObject {
+class KeyChainAccessClass: NSObject {
     
-    var keychain = Keychain.init(service: "com.rigil.testBotTest23232323")
+    var keychain = Keychain.init(service: "com.rigil.testBOT343443")
 
 }
