@@ -17,6 +17,8 @@
 		C5913B6A23DB6DE6009D4091 /* FinalTestXcodeBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5913B6923DB6DE6009D4091 /* FinalTestXcodeBotUITests.swift */; };
 		C5913B7923DB6EB6009D4091 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = C5913B7823DB6EB6009D4091 /* KeychainAccess */; };
 		C5913B7F23DB74D9009D4091 /* KeyChainAccessClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5913B7E23DB74D9009D4091 /* KeyChainAccessClass.swift */; };
+		C5913B8123DB7772009D4091 /* AlamofireHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5913B8023DB7772009D4091 /* AlamofireHelper.swift */; };
+		C5913B8423DB78CD009D4091 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C5913B8323DB78CD009D4091 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,7 @@
 		C5913B6923DB6DE6009D4091 /* FinalTestXcodeBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalTestXcodeBotUITests.swift; sourceTree = "<group>"; };
 		C5913B6B23DB6DE6009D4091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5913B7E23DB74D9009D4091 /* KeyChainAccessClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainAccessClass.swift; sourceTree = "<group>"; };
+		C5913B8023DB7772009D4091 /* AlamofireHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5913B7923DB6EB6009D4091 /* KeychainAccess in Frameworks */,
+				C5913B8423DB78CD009D4091 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +115,7 @@
 				C5913B5223DB6DE6009D4091 /* LaunchScreen.storyboard */,
 				C5913B5523DB6DE6009D4091 /* Info.plist */,
 				C5913B7E23DB74D9009D4091 /* KeyChainAccessClass.swift */,
+				C5913B8023DB7772009D4091 /* AlamofireHelper.swift */,
 			);
 			path = FinalTestXcodeBot;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			name = FinalTestXcodeBot;
 			packageProductDependencies = (
 				C5913B7823DB6EB6009D4091 /* KeychainAccess */,
+				C5913B8323DB78CD009D4091 /* Alamofire */,
 			);
 			productName = FinalTestXcodeBot;
 			productReference = C5913B4423DB6DDE009D4091 /* FinalTestXcodeBot.app */;
@@ -226,6 +232,7 @@
 			mainGroup = C5913B3B23DB6DDE009D4091;
 			packageReferences = (
 				C5913B7723DB6EB6009D4091 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				C5913B8223DB78CD009D4091 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = C5913B4523DB6DDE009D4091 /* Products */;
 			projectDirPath = "";
@@ -270,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5913B8123DB7772009D4091 /* AlamofireHelper.swift in Sources */,
 				C5913B7F23DB74D9009D4091 /* KeyChainAccessClass.swift in Sources */,
 				C5913B4C23DB6DDE009D4091 /* ViewController.swift in Sources */,
 				C5913B4823DB6DDE009D4091 /* AppDelegate.swift in Sources */,
@@ -612,6 +620,14 @@
 				minimumVersion = 4.1.0;
 			};
 		};
+		C5913B8223DB78CD009D4091 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -619,6 +635,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C5913B7723DB6EB6009D4091 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
 			productName = KeychainAccess;
+		};
+		C5913B8323DB78CD009D4091 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5913B8223DB78CD009D4091 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
